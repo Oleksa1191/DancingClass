@@ -1,95 +1,195 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/footer-distributed.css">
-  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-  <link rel="shortcut icon" href="img/icons/favicon (1).ico" type="image/x-icon">
-  <title>Contact | Pat Brown School of Dancing</title>
-</head>
-
-<body>
-  <!-- header & navigaton -->
-  <header>
-    <nav role="navigation">
-      <img id="logo" src="img/two hands.png" alt="Pat Brown School of Dancing">
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="teachers.html">Teachers</a></li>
-        <li><a href="classes.html">Classes</a></li>
-        <li><a href="registration.html">Registration</a></li>
-        <li><a href="contact.html" class="current">Contact</a></li>
-        <li><a href="pictures.html">Pictures</a></li>
-      </ul>
-    </nav>  
-  </header>
-  
-  
-  <!-- body -->
-  <section>
-    <div class="main">
-      <h1>Contact Us</h1>
-      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.6812121401404!2d-88.85582608466706!3d35.635584680204964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887ea1456bab4ce1%3A0xc80758d101af64b3!2s188+Commerce+Center+Cir%2C+Jackson%2C+TN+38301!5e0!3m2!1sen!2sus!4v1488670012000" width="680" height="330" frameborder="0" style="border:0" allowfullscreen></iframe>
-      <h2>Address</h2>
-      
-      <p><a href="https://goo.gl/maps/C3UJGF7enTr">188 Commerce Center Circle <br> Jackson, TN 38301</a></p>
-      <h2>Phone Number</h2>
-      <p><a href="tel:731-668-7353">731.668.7353</a></p>
-      <h2>Hours</h2>
-      <p>Monday-Friday:<br> 10:00a.m. - 9:00p.m.</p>
-      <h2>Email</h2>
-      <p><a href="mailto:pbrown6995@aol.com">pbrown6995@aol.com</a></p>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Contact</title>
+    <script data-search-pseudo-elements="data-search-pseudo-elements" defer="defer" src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/ppn4gng.css"/>
+    <link rel="stylesheet" href="./assets/styles/foundation.css"/>
+    <link rel="stylesheet" href="./assets/styles/main.min.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="hero contact__hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <nav class="navbar justify-content-between navbar-expand-lg navbar-light hero__navbar-container">
+                <div class="logo"><a class="navbar-brand" href="index.html"><img src="assets/img/logo/1_objects.png" srcset="assets/img/logo/1_objects@2x.png 2x" alt="Logo"/></a></div>
+                <button class="phone__header-btn navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse justify-content-between phone__header-menu">
+                  <div class="phone__header-close">×</div>
+                  <ul class="navbar-nav flex-row hero__nav-site">
+                    <li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link_active" href="contact.html">Contact</a></li>
+                  </ul>
+                  <ul class="navbar-nav flex-row hero__nav-socials">
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="#"><i class="fab fa-dribbble"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="container hero__text-center">
+          <div class="row">
+            <div class="col-12">
+              <div class="hero__article-name">
+                <h1>Contact</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-10 text-center">
+              <div class="contact__head-text">
+                <p>Ready to start a project? We are too!</p>
+              </div>
+              <div class="contact__head-desc">
+                <p>When marketing and growing a business, technology often gets in the way instead</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="col-12">
+            <form class="contact__form" action="get">
+              <div class="row contact__row">
+                <div class="col-12 contact__col">
+                  <input class="contact__input form-control" type="text" name="name" placeholder="Your name (*)"/>
+                </div>
+              </div>
+              <div class="row contact__row">
+                <div class="col-12 col-sm-6 contact__col">
+                  <input class="contact__input form-control" type="email" name="emai" placeholder="Email Addres (*)"/>
+                </div>
+                <div class="col-12 col-sm-6 contact__col">
+                  <input class="contact__input form-control" type="text" name="emai" placeholder="Website"/>
+                </div>
+              </div>
+              <div class="row contact__row">
+                <div class="col-12 col-sm-6 contact__col">
+                  <input class="contact__input form-control" type="tel" name="phone" placeholder="Phone Number"/>
+                </div>
+                <div class="col-12 col-sm-6 contact__col">
+                  <input class="contact__input form-control" type="text" name="phone" placeholder="Business"/>
+                </div>
+              </div>
+              <div class="row contact__row">
+                <div class="col-12 contact__col">
+                  <textarea class="form-control" placeholder="Message (*)"></textarea>
+                </div>
+              </div>
+              <div class="row contact__row">
+                <div class="col contact__col d-flex justify-content-center">
+                  <button class="btn" type="submit">Let's Talk</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <div class="container-fluid">
+          <div class="col-12 col-md-5 map__col">
+            <div class="map__info">
+              <div class="map__info-logo"><a href="#"><img src="assets/img/logo/1_objects.png" srcset="assets/img/logo/1_objects@2x.png 2x" alt="Logo"/></a></div>
+              <div class="map__info-address">
+                <div class="map__info-address-head">
+                  <p class="text-uppercase">Our Address</p>
+                </div>
+                <div class="map__info-address-text">
+                  <p>2901 Bee Caves Road Suite A Austin, TX 78746</p>
+                </div>
+              </div>
+              <div class="map__info-phone">
+                <div class="map__info-phone-head">
+                  <p class="text-uppercase">Phone Number</p>
+                </div>
+                <div class="map__info-phone-text">
+                  <p>512-270-2884</p>
+                </div>
+              </div>
+              <div class="map__info-email">
+                <div class="map__info-email-head">
+                  <p class="text-uppercase">Email Address</p>
+                </div>
+                <div class="map__info-email-link"><a href="mailto:hello@ipx.org">hello@ipx.org</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <section class="footer__head"><img class="footer__head-img" src="assets/img/decor/1_objects_1.png" srcset="assets/img/decor/1_objects@2x_1.png" alt="Image"/>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="footer__head-text">
+                  <h3>Ready to start a project?</h3>
+                  <p>
+                     We’d love to hear more. Drop us a line <a href="mailto:hello@ipx.org">hello@ipx.org</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="footer__bottom">
+          <div class="container">
+            <div class="row">
+              <div class="col-6 col-md-3 d-none d-lg-flex"><a href="#"><img src="assets/img/logo/IPX-BW.png" alt="Logo"/></a></div>
+              <div class="col footer-col col-lg-3">
+                <p class="footer__bottom-head-text">Site Navigation</p>
+                <ul class="footer__bottom-list">
+                  <li><a href="work.html">Work</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="ventures.html">IPX Ventures</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col footer-col col-lg-2">
+                <p class="footer__bottom-head-text">Our Office</p>
+                <p class="footer__bottom-text">2901 Bee Caves Road</p>
+                <p class="footer__bottom-text">Suite A</p>
+                <p class="footer__bottom-text">Austin, TX 78746</p>
+              </div>
+              <div class="col footer-col col-lg-2">
+                <p class="footer__bottom-head-text">Let’s Talk</p><a class="footer__bottom-link" href="mailto:hello@ipx.org">hello@ipx.org</a><a class="footer__bottom-link" href="tel:+(512) 270-2884">(512) 270-2884</a>
+              </div>
+              <div class="col footer-col col-lg-2">
+                <p class="footer__bottom-head-text">Social </p>
+                <ul class="footer__bottom-list">
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Dribble</a></li>
+                  <li><a href="#">Instagram</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <p class="privacy">© 2018 IPX. All rights reserved. Privacy Policy | Terms and Conditions </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+      <div class="top-btn"><i class="fas fa-angle-up"></i></div>
     </div>
-    </section>
+    <script src="./assets/js/foundation.js"></script>
+    <script src="./assets/js/app.js"></script>
   </body>
-
-
-  
-  	<footer class="footer-distributed">
-      
-       <div class="nav">
-         
-    <a href="index.html">About</a>
-         · 
-    <a href="teachers.html">Teachers</a>
-          ·
-    <a href="classes.html">Classes</a>
-          ·
-    <a href="registration.html">Registration</a>
-          ·
-    <a href="contact.html"  class="current">Contact</a>
-          ·
-    <a href="pictures.html">Pictures</a>
-          
-  </div>
-       <hr>
-
-			
-
-			<div class="footer-left">
-
-				<p class="footer-links">
-					<a href="https://goo.gl/maps/C3UJGF7enTr">188 Commerce Center Circle <br> Jackson, TN 38301</a>
-					<br>
-					<a  href="tel:731-668-7353">(731) 668-7353 </a>
-          <br>
-          <a href="contact.html"><span>Monday-Friday: 10:00 a.m. - 9:00 p.m.</span></a>
-					<br>
-					<a href="mailto:pbrown6995@aol.com">pbrown6995@aol.com</a>
-          <br>
-          
-					<a href="https://www.facebook.com/PatBrownSchoolofDancing/" target="_blank">
-      <img class="icon" src="img/icons/Facebook.png" alt="Facebook">
-    </a>
-				</p>
-			</div>
-      
-      <div class="icons">
-    
-     <p class="icons2">
-       &copy;2017 Pat Brown School of Dancing
-    <p>
-  </div>
-      
-		</footer>
+</html>
